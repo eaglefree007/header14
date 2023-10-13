@@ -1,0 +1,165 @@
+:root {
+  --action-primary : #25DAC5;
+  --action-secondary : #482BE7;
+  --action-third : #E93A7D;
+  --background-dark : #2F1893;
+  --background-grey : #EBEAED;
+  --colors-heading : #1E0E62;
+  --colors-text : #15143966;
+  --colors-white : #FFFFFF;
+  --socials-twitter: #1DA1F2;
+  font-family: DM Sans;
+  width: 100vw;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: var(--background-dark);
+}
+.grey{
+  color: var(--background-grey);
+}
+.white{
+  color: var(--colors-white);
+}
+.bg-secondary{
+  background-color: var(--action-secondary);
+}
+.bg-third{
+  background-color: var(--action-third)
+}
+
+.p{
+  color: var(--action-third);
+}
+
+.nav-tab {
+  list-style: none;
+}
+.bg-white{
+  background-color: var(--colors-white);
+}
+
+.bg-third{
+  background-color: var(--action-third);
+}
+.bg-secondary{
+  background-color: var(--action-secondary);
+}
+.bg-twitter{
+  background-color: var(--socials-twitter);
+}
+.text-color{
+  color: var(--colors-text);
+}
+p.text-color{
+  font-weight: 400;
+}
+.color-primary{
+  color: var(--action-primary);
+}
+.btn{
+  border-radius: 6.25rem;
+  height: 2.5rem;
+}
+.active{
+  color: rgba(255, 255, 255, 0.3);
+}
+.flex {
+  display: flex;
+}
+.flex-col{
+  flex-direction: column;
+}
+.justify-center{
+  justify-content: center;
+}
+.signup{
+  text-align: center;
+  font-size: 2.625rem;
+}
+.w-80vw{
+  width: 80vw;
+}
+.w-full{
+  width: 100%;
+}
+.w-90{
+  width: 90%;
+}
+.hr{
+  width: 40%; 
+}
+.mx-auto{
+  margin: 0 auto;
+}
+.align-center {
+  align-items: center
+}
+.justify-around{
+  justify-content: space-around;
+}
+.w-50vw{
+  width: 50vw;
+}
+.w-28vw{
+  width: 28vw;
+}
+.w-20vw{
+  width: 20vw;
+}
+.px-2rem{
+  padding: 0 2rem 0 2rem;
+}
+.p-3rem{
+  padding: 0 3rem 3rem 3rem;
+}
+.mx-2rem{
+  margin: 0 2rem 0 2rem;
+}
+.my-1{
+  margin: 1rem auto;
+}
+.logo{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.01831rem;
+}
+nav{
+  margin: 2rem auto;
+}
+h2{
+  
+  font-size: 3.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.375rem; /* 120.69% */
+  letter-spacing: -0.0625rem;
+}
+h5{  
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 145.455% */
+}
+
+.nav-tab{
+  font-size: 1.375rem;
+  color: var(--colors-white);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 145.455% */
+}
+
+.signup-card{
+  border-radius: 0.625rem;
+}
+
+.input{
+  padding: 1rem;
+  margin: .5rem 0;
+  border-radius: 6.25rem;
+}
